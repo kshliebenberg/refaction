@@ -310,6 +310,7 @@ namespace refactor_me.Models
     {
         public Guid Id { get; set; }
 
+        [JsonIgnore]
         public Guid ProductId { get; set; }
 
         public string Name { get; set; }
